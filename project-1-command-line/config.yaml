@@ -1,0 +1,21 @@
+news_sites:
+    eltiempo:
+        url: https://www.eltiempo.com
+        queries:
+            homepage_articles_links: '.page-link'
+            article_body: '.contenido'
+            article_title: '.titulo'
+        regex:
+            main_page: '^https?://www.eltiempo.com.*$'
+            sub_pages: '^https?://www.eltiempo.com.*[a-z]+$'
+            articles: '^https?://www.eltiempo.com.*-\d+$'
+    elespectador:
+        url: https://www.elespectador.com
+        queries:
+            homepage_articles_links: 'node-image'
+            article_body: '.contenido'
+            article_title: '.titulo'
+        regex:
+            main_page: ''
+            articles: ''
+            sub_pages: ''

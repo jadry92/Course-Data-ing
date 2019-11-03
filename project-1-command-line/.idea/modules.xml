@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../load_to_DB/.idea/load_to_DB.iml" filepath="$PROJECT_DIR$/../load_to_DB/.idea/load_to_DB.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/project-1-command-line.iml" filepath="$PROJECT_DIR$/.idea/project-1-command-line.iml" />
+    </modules>
+  </component>
+</project>
